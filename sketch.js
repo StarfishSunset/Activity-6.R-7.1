@@ -31,9 +31,9 @@ function draw() {
   // make it go up instead of down
 
   if (balln[0].x >= width) {
-    balln[0].dx = -0.95 * balln[0].dx;
+    balln[0].dx = -0.97 * balln[0].dx;
   }
   if (balln[1].x >= width) {
-    balln[1].dx = -0.95 * balln[1].dx;
+    balln[1].dx = -0.97 * balln[1].dx;
   }
 }
