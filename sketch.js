@@ -15,7 +15,7 @@ for (let i = 0; i < 2; i++) {
 function draw() {
   background(200);
 
-  balln[0].x += balln[0].dy;
+  balln[0].x += balln[0].dx;
   balln[0].dx += 0.25;
   circle(balln[0].x, balln[0].y, 50);
 
